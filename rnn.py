@@ -127,6 +127,7 @@ def rnn_conv(data_, labels_, rate=0.8, size_batch=100,log_path='./tb_logs/',visu
 
 
 
+
 if __name__ == "__main__":
     data = loadJson('data100000.json')
     label = loadJson('label100000.json')
